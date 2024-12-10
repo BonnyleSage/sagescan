@@ -39,15 +39,15 @@ sagescan is a Bash-based tool that automates Nmap scans with advanced features l
 
   1-Quick Scan
   🆗  ./bonny.sh -t example.com -m 1
-  2-Full Scan
+  ||2-Full Scan
   🆗  ./bonny.sh -t example.com -m 2
-  3-OS Detection
+  ||3-OS Detection
   🆗 ./bonny.sh -t example.com -m 3
-  4-Stealth Scan
+  ||4-Stealth Scan
   🆗 ./bonny.sh -t example.com -m 4
-  5-WAF Detection and Bypass
+  ||5-WAF Detection and Bypass
   🆗 ./bonny.sh -t example.com -m 5
-  6- Custom Script Scan
+  ||6- Custom Script Scan
   🆗 ./bonny.sh -t example.com -m 6  |||Then enter the script name when prompted, e.g., http-title.
 
 ## Dependencies
